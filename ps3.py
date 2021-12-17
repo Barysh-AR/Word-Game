@@ -444,6 +444,7 @@ def play_game(word_list):
                 replay = False
         
         all_score += score
+    print('\nAll score: {}'.format(all_score))
     return all_score
     
 
